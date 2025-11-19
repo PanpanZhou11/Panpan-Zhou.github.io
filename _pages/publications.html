@@ -35,10 +35,9 @@ author_profile: true
 {% endif %}
 -->
 
----
 
- Journal Articles
-======
+
+ ==Journal Articles==
 
 
 <ol>
@@ -46,7 +45,10 @@ author_profile: true
 {% assign journals = journals | sort: "year" | reverse %}
 {% for paper in journals %}
   <li>
-    {{ paper.authors | markdownify | strip_newlines }}.
+    {%- capture auth -%}
+      {{ paper.authors | markdownify }}
+    {%- endcapture -%}
+    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
     {% if paper.url and paper.url != "" %}
       <a href="{{ paper.url }}">{{ paper.title }}</a>
     {% else %}

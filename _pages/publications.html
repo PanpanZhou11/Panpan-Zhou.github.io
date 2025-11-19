@@ -7,7 +7,7 @@ author_profile: true
 
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -34,6 +34,30 @@ author_profile: true
   {% endfor %}
 {% endif %}
 -->
+
+<p style="font-weight: bold; font-size: 24px;">
+  Preprint
+</p>
+
+<ol>
+{% assign preprints = site.data.publications | where: "category", "preprint" %}
+{% assign preprints = preprints | sort: "year" | reverse %}
+{% for paper in preprints %}
+  <li>
+    {%- capture auth -%}
+      {{ paper.authors | markdownify }}
+    {%- endcapture -%}
+    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}
+    {% if paper.url and paper.url != "" %}
+      <a href="{{ paper.url }}">{{ paper.title }}</a>.
+    {% else %}
+      {{ paper.title }}.
+    {% endif %}
+    {% if paper.venue %}<i>{{ paper.venue }}</i>{% endif %}
+    {% if paper.note and paper.note != "" %}, {{ paper.note }}{% endif %}.
+  </li>
+{% endfor %}
+</ol>
 
 
 

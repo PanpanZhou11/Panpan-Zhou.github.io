@@ -1,10 +1,18 @@
 - category: "journal"
-  authors: "**Panpan Zhou**, et al."
-  title: "High-resolution infrastructure defect detection dataset sourced by unmanned systems and validated with deep learning"
+  authors: "**P. Zhou**, Y. Xu, B. Wahlberg, and X. Hu,"
+  title: "A differential game approach to intrinsic encirclement control"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
-  venue: "Automation in Construction"
-  year: 2024
-  note: ""
+  venue: "revised for Automatica"
+  year: 2025
+  note: "as (regular paper)"
+
+
+
+
+
+
+
+
 
 - category: "conference"
   authors: "**Panpan Zhou**, et al."

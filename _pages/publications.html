@@ -49,11 +49,11 @@ author_profile: true
     {%- capture auth -%}
       {{ paper.authors | markdownify }}
     {%- endcapture -%}
-    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
+    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% if paper.url and paper.url != "" %}
       <a href="{{ paper.url}}">{{ paper.title}}</a>
     {% else %}
-      {{ paper.title }}.
+      {{ paper.title}},
     {% endif %}
     {% if paper.venue %}<i>{{ paper.venue}}</i>{% endif %}
     {% if paper.note and paper.note != "" %}, {{ paper.note}}{% endif %}.
@@ -76,11 +76,11 @@ author_profile: true
     {%- capture auth -%}
       {{ paper.authors | markdownify }}
     {%- endcapture -%}
-    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
+    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% if paper.url and paper.url != "" %}
       <a href="{{ paper.url}}">{{ paper.title}}</a>.
     {% else %}
-      {{ paper.title }}.
+      {{ paper.title}},
     {% endif %}
     {% if paper.venue %}<i>{{ paper.venue}}</i>{% endif %}
     {% if paper.note and paper.note != "" %}, {{ paper.note}}{% endif %}.

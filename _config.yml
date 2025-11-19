@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Homepage"
+title                    : "Panpan Zhou Homepage"
 title_separator          : "-"
 name                     : &name "Panpan Zhou"
 description              : &description "Panpan Zhou's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postdoc Researcher at KTH"
   location         : "Stockholm, Sweden"
-  employer         : "Red Brick"
+  employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 

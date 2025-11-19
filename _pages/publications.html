@@ -75,7 +75,7 @@ author_profile: true
     {%- endcapture -%}
     {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% if paper.url and paper.url != "" %}
-      <a href="{{ paper.url}}">{{ paper.title}}</a>
+      <a href="{{ paper.url}}">{{ paper.title}}</a>,
     {% else %}
       {{ paper.title}},
     {% endif %}
@@ -102,7 +102,7 @@ author_profile: true
     {%- endcapture -%}
     {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% if paper.url and paper.url != "" %}
-      <a href="{{ paper.url}}">{{ paper.title}}</a>.
+      <a href="{{ paper.url}}">{{ paper.title}}</a>,
     {% else %}
       {{ paper.title}},
     {% endif %}

@@ -51,15 +51,17 @@ author_profile: true
     {%- endcapture -%}
     {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
     {% if paper.url and paper.url != "" %}
-      <a href="{{ paper.url }}">{{ paper.title }}</a>
+      <a href="{{ paper.url}}">{{ paper.title}}</a>
     {% else %}
       {{ paper.title }}.
     {% endif %}
     {% if paper.venue %}<i>{{ paper.venue }}</i>{% endif %}
-    {% if paper.note and paper.note != "" %}, {{ paper.note }}{% endif %}.
+    {% if paper.note and paper.note != "" %}, {{ paper.note}}{% endif %}.
   </li>
 {% endfor %}
 </ol>
+
+
 
 
 <p style="font-weight: bold; font-size: 24px;">
@@ -76,12 +78,12 @@ author_profile: true
     {%- endcapture -%}
     {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
     {% if paper.url and paper.url != "" %}
-      <a href="{{ paper.url }}">{{ paper.title }}</a>.
+      <a href="{{ paper.url}}">{{ paper.title}}</a>.
     {% else %}
       {{ paper.title }}.
     {% endif %}
     {% if paper.venue %}<i>{{ paper.venue }}</i>{% endif %}
-    {% if paper.note and paper.note != "" %}, {{ paper.note }}{% endif %}.
+    {% if paper.note and paper.note != "" %}, {{ paper.note}}{% endif %}.
   </li>
 {% endfor %}
 </ol>

@@ -23,7 +23,7 @@ repository               : "PanpanZhou11/Panpan-Zhou.github.io"   #"academicpage
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "panpan.jpg"
+  avatar           : "panpan.png"
   name             : "Panpan (Priscilla) Zhou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc Researcher at KTH"

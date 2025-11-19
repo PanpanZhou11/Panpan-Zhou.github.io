@@ -107,9 +107,57 @@
 
 
 - category: "conference"
-  authors: "**Panpan Zhou**, et al."
-  title: "High-resolution infrastructure defect detection dataset sourced by unmanned systems and validated with deep learning,"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
-  venue: "Automation in Construction"
+  authors: "**Panpan Zhou**, X. Hu, and B. Wahlberg,"
+  title: "Distributed strategies for pursuit-evasion of high-order integrators,"
+  venue: "Proceedings of the 18th IEEE International Conference on Control & Automation (ICCA)"
   year: 2024
-  note: ""
+  note: "Reykjavik, Iceland, June 18-21, 2024"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, and B. M. Chen,"
+  title: "Distributed optimal solutions for multiagent pursuit-evasion games,"
+  venue: "Proceeding of the 62nd IEEE Conference on Decision and Control (CDC)"
+  year: 2023
+  note: "Singapore, December 13-15, 2023"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, S. Lai, J. Cui, and B. M. Chen,"
+  title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance,"
+  venue: "Proceeding of the 17th International Conference on Control & Automation (ICCA)"
+  year: 2022
+  note: "Naples, Italy, June 27-30, 2022"
+
+- category: "conference"
+  authors: "**Panpan Zhou**,"
+  title: "Distributed observer for a non-autonomous leader over jointly connected switching networks,"
+  venue: "Proceeding of the 41st Chinese Control Conference (CCC)"
+  year: 2022
+  note: "Hefei, China, July 25-27, 2022"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, and B. M. Chen,"
+  title: "Semi-global leader-following output consensus of heterogeneous systems with position and rate-limited actuators via state feedback,"
+  venue: "Proceedings of the 40th Chinese Control Conference"
+  year: 2021
+  note: "Shanghai, China, July 26-28, 2021. This paper was in the Guan-Zhaozhi Award-Finalist (top3)"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, and B. M. Chen,"
+  title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems with position and rate-limited actuators via state feedback,"
+  venue: "Proceedings of the 40th Chinese Control Conference"
+  year: 2021
+  note: "Shanghai, China, July 26-28, 2021"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, and B. M. Chen,"
+  title: "Output formation-containment control of multiple agents with leaders of unknown inputs over switching topologies,"
+  venue: "Proceedings of the 16th IEEE International Conference on Control & Automation (ICCA)"
+  year: 2020
+  note: "Sapparo, Hokkaido, Japan, October 9–11, 2020"
+
+- category: "conference"
+  authors: "**Panpan Zhou**, and B. M. Chen,"
+  title: "Formation control of Euler-Lagrange systems of leaders with bounded unknown inputs,"
+  venue: "Proceeding of the 2020 IFAC World Congress (IFAC)"
+  year: 2020
+  note: "Berlin, Germany, July 12-17, 2020"

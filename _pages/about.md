@@ -13,7 +13,7 @@ Dr. Panpan (Priscilla) Zhou is currently a Digital Futures Postdoctoral Fellow a
 Research Interest
 ======
 - Multi-agent systems
-- modelling and control
+- Modelling and control
 - Optimization
 - Game theory
 - Applications to autonomous systems, robotics, medicine, and so on  

@@ -37,7 +37,7 @@ author_profile: true
 
 
 
- <p style="font-weight: bold; font-size: 24px;">
+<p style="font-weight: bold; font-size: 24px;">
   Journal Articles
 </p>
 
@@ -52,6 +52,31 @@ author_profile: true
     {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
     {% if paper.url and paper.url != "" %}
       <a href="{{ paper.url }}">{{ paper.title }}</a>
+    {% else %}
+      {{ paper.title }}.
+    {% endif %}
+    {% if paper.venue %}<i>{{ paper.venue }}</i>{% endif %}
+    {% if paper.note and paper.note != "" %}, {{ paper.note }}{% endif %}.
+  </li>
+{% endfor %}
+</ol>
+
+
+<p style="font-weight: bold; font-size: 24px;">
+  Conference Papers
+</p>
+
+<ol>
+{% assign confs = site.data.publications | where: "category", "conference" %}
+{% assign confs = confs | sort: "year" | reverse %}
+{% for paper in confs %}
+  <li>
+    {%- capture auth -%}
+      {{ paper.authors | markdownify }}
+    {%- endcapture -%}
+    {{ auth | strip_newlines | remove: '<p>' | remove: '</p>' }}.
+    {% if paper.url and paper.url != "" %}
+      <a href="{{ paper.url }}">{{ paper.title }}</a>.
     {% else %}
       {{ paper.title }}.
     {% endif %}

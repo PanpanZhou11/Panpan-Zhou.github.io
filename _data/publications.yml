@@ -9,7 +9,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, S. Li, B. Wahlberg, and X. Hu,"
-  title: "Nature-inspired dynamic control for pursuit-evasion of robots,"
+  title: "Nature-inspired dynamic control for pursuit-evasion of robots"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "Automatica"
   year: 2026
@@ -17,7 +17,7 @@
 
 - category: "journal"
   authors: "Y. Xu, **P. Zhou**, L. Wang, Z. Liu, and X. Hu,"
-  title: "Contest for system observability as an infinitely repeated game,"
+  title: "Contest for system observability as an infinitely repeated game"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "accepted by Journal of Systems Science and Complexity"
   year: 2026
@@ -25,7 +25,7 @@
 
 - category: "journal"
   authors: "Y. Xu, **P. Zhou**, L. Wang, and X. Hu,"
-  title: "Optimal intrinsic formation using exogenous systems,"
+  title: "Optimal intrinsic formation using exogenous systems"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "accepted by Science China-Information Sciences"
   year: 2026
@@ -33,7 +33,7 @@
 
 - category: "journal"
   authors: "X. Wei, J. Li, **P. Zhou**, X. Fang, H. Liu,"
-  title: "Swarm trajectory planning using dynamic corridors for dead zone avoidance,"
+  title: "Swarm trajectory planning using dynamic corridors for dead zone avoidance"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "accepted by Unmanned Systems"
   year: 2026
@@ -41,7 +41,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
-  title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems subject to actuator position and rate saturation,"
+  title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems subject to actuator position and rate saturation"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "IEEE Transactions on Automatic Control"
   year: 2024
@@ -49,7 +49,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
-  title: "Distributed optimal solutions for multi-agent pursuit-evasion games for capture and formation control,"
+  title: "Distributed optimal solutions for multi-agent pursuit-evasion games for capture and formation control"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "IEEE Transactions on Industrial Electronics"
   year: 2024
@@ -57,7 +57,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, Y. Xu, X. Hu, and B. Wahlberg,"
-  title: "Distributed strategies for pursuit-evasion of high-order integrators,"
+  title: "Distributed strategies for pursuit-evasion of high-order integrators"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "Autonomous Intelligent Systems"
   year: 2024
@@ -65,7 +65,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, X. Hu, and Y. Dong,"
-  title: "Adaptive output observer for a non-autonomous leader system over periodic switching topologies and its applications to the formation control of offshore vessels,"
+  title: "Adaptive output observer for a non-autonomous leader system over periodic switching topologies and its applications to the formation control of offshore vessels"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "International Journal of Robust and Nonlinear Control"
   year: 2023
@@ -73,7 +73,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, S. Lai, J. Cui, and B. M. Chen,"
-  title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance,"
+  title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "Autonomous Intelligent Systems"
   year: 2023
@@ -81,7 +81,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
-  title: "Formation-containment control of Euler-Lagrange systems of leaders with bounded unknown inputs,"
+  title: "Formation-containment control of Euler-Lagrange systems of leaders with bounded unknown inputs"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "IEEE Transactions on Cybernetics"
   year: 2022
@@ -89,7 +89,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
-  title: "Semi-global leader–following output consensus of heterogeneous systems with all agents subject to input saturation,"
+  title: "Semi-global leader–following output consensus of heterogeneous systems with all agents subject to input saturation"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "International Journal of Robust and Nonlinear Control"
   year: 2022
@@ -97,7 +97,7 @@
 
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
-  title: "Semi-global leader-following consensus-based formation flight of unmanned aerial vehicles,"
+  title: "Semi-global leader-following consensus-based formation flight of unmanned aerial vehicles"
   url: "https://doi.org/10.1016/j.autcon.2024.105405"
   venue: "Chinese Journal of Aeronautics"
   year: 2022
@@ -109,56 +109,56 @@
 
 - category: "conference"
   authors: "**Panpan Zhou**, X. Hu, and B. Wahlberg,"
-  title: "Distributed strategies for pursuit-evasion of high-order integrators,"
+  title: "Distributed strategies for pursuit-evasion of high-order integrators"
   venue: "Proceedings of the 18th IEEE International Conference on Control & Automation (ICCA)"
   year: 2024
   note: "Reykjavik, Iceland, June 18-21, 2024"
 
 - category: "conference"
   authors: "**Panpan Zhou**, and B. M. Chen,"
-  title: "Distributed optimal solutions for multiagent pursuit-evasion games,"
+  title: "Distributed optimal solutions for multiagent pursuit-evasion games"
   venue: "Proceeding of the 62nd IEEE Conference on Decision and Control (CDC)"
   year: 2023
   note: "Singapore, December 13-15, 2023"
 
 - category: "conference"
   authors: "**Panpan Zhou**, S. Lai, J. Cui, and B. M. Chen,"
-  title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance,"
+  title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance"
   venue: "Proceeding of the 17th International Conference on Control & Automation (ICCA)"
   year: 2022
   note: "Naples, Italy, June 27-30, 2022"
 
 - category: "conference"
   authors: "**Panpan Zhou**,"
-  title: "Distributed observer for a non-autonomous leader over jointly connected switching networks,"
+  title: "Distributed observer for a non-autonomous leader over jointly connected switching networks"
   venue: "Proceeding of the 41st Chinese Control Conference (CCC)"
   year: 2022
   note: "Hefei, China, July 25-27, 2022"
 
 - category: "conference"
   authors: "**Panpan Zhou**, and B. M. Chen,"
-  title: "Semi-global leader-following output consensus of heterogeneous systems with position and rate-limited actuators via state feedback,"
+  title: "Semi-global leader-following output consensus of heterogeneous systems with position and rate-limited actuators via state feedback"
   venue: "Proceedings of the 40th Chinese Control Conference"
   year: 2021
   note: "Shanghai, China, July 26-28, 2021. This paper was in the Guan-Zhaozhi Award-Finalist (top3)"
 
 - category: "conference"
   authors: "**Panpan Zhou**, and B. M. Chen,"
-  title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems with position and rate-limited actuators via state feedback,"
+  title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems with position and rate-limited actuators via state feedback"
   venue: "Proceedings of the 40th Chinese Control Conference"
   year: 2021
   note: "Shanghai, China, July 26-28, 2021"
 
 - category: "conference"
   authors: "**Panpan Zhou**, and B. M. Chen,"
-  title: "Output formation-containment control of multiple agents with leaders of unknown inputs over switching topologies,"
+  title: "Output formation-containment control of multiple agents with leaders of unknown inputs over switching topologies"
   venue: "Proceedings of the 16th IEEE International Conference on Control & Automation (ICCA)"
   year: 2020
   note: "Sapparo, Hokkaido, Japan, October 9–11, 2020"
 
 - category: "conference"
   authors: "**Panpan Zhou**, and B. M. Chen,"
-  title: "Formation control of Euler-Lagrange systems of leaders with bounded unknown inputs,"
+  title: "Formation control of Euler-Lagrange systems of leaders with bounded unknown inputs"
   venue: "Proceeding of the 2020 IFAC World Congress (IFAC)"
   year: 2020
   note: "Berlin, Germany, July 12-17, 2020"

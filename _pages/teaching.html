@@ -25,7 +25,9 @@ author_profile: true
 
       {%- comment -%} 课程名称：优先用 course，没有就用 title {%- endcomment -%}
       <strong>{{ teach.course | default: teach.title }}</strong>,
-
+      {%- if teach.level -%}
+        {{ teach.level }},
+      {%- endif -%}
       {%- if teach.location -%}
         {{ teach.location }}
       {%- endif -%}

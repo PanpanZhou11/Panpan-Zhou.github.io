@@ -2,7 +2,7 @@
 - category: "preprint"
   authors: "**P. Zhou**, Y. Xu, B. Wahlberg, and X. Hu,"
   title: "A differential game approach to intrinsic encirclement control"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "http://arxiv.org/abs/2502.19933"
   venue: "revised for Automatica"
   year: 2026
   note: "as (regular paper)"
@@ -10,7 +10,7 @@
 - category: "journal"
   authors: "**P. Zhou**, S. Li, B. Wahlberg, and X. Hu,"
   title: "Nature-inspired dynamic control for pursuit-evasion of robots"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "http://arxiv.org/abs/2410.16829"
   venue: "Automatica"
   year: 2026
   note: "183, 112629, 2026"
@@ -18,7 +18,7 @@
 - category: "journal"
   authors: "Y. Xu, **P. Zhou**, L. Wang, Z. Liu, and X. Hu,"
   title: "Contest for system observability as an infinitely repeated game"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.48550/arXiv.2306.13570"
   venue: "accepted by Journal of Systems Science and Complexity"
   year: 2026
   note: ""
@@ -26,7 +26,7 @@
 - category: "journal"
   authors: "Y. Xu, **P. Zhou**, L. Wang, and X. Hu,"
   title: "Optimal intrinsic formation using exogenous systems"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.48550/arXiv.2503.13359"
   venue: "accepted by Science China-Information Sciences"
   year: 2026
   note: ""
@@ -34,7 +34,7 @@
 - category: "journal"
   authors: "X. Wei, J. Li, **P. Zhou**, X. Fang, H. Liu,"
   title: "Swarm trajectory planning using dynamic corridors for dead zone avoidance"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1142/S2301385027500166"
   venue: "accepted by Unmanned Systems"
   year: 2026
   note: ""
@@ -42,7 +42,7 @@
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
   title: "Semi-global leader-following output consensus of discrete-time heterogeneous linear systems subject to actuator position and rate saturation"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1109/TAC.2022.3216977"
   venue: "IEEE Transactions on Automatic Control"
   year: 2024
   note: "68(2), pp. 1231-1236, 2024"
@@ -50,7 +50,7 @@
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
   title: "Distributed optimal solutions for multi-agent pursuit-evasion games for capture and formation control"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1109/TIE.2023.3283684"
   venue: "IEEE Transactions on Industrial Electronics"
   year: 2024
   note: "71(5), pp. 5224-5234, 2024"
@@ -58,7 +58,7 @@
 - category: "journal"
   authors: "**P. Zhou**, Y. Xu, X. Hu, and B. Wahlberg,"
   title: "Distributed strategies for pursuit-evasion of high-order integrators"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1007/s43684-024-00085-7"
   venue: "Autonomous Intelligent Systems"
   year: 2024
   note: "4(1), pp. 1-13, 2024"
@@ -66,7 +66,7 @@
 - category: "journal"
   authors: "**P. Zhou**, X. Hu, and Y. Dong,"
   title: "Adaptive output observer for a non-autonomous leader system over periodic switching topologies and its applications to the formation control of offshore vessels"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1002/rnc.6859"
   venue: "International Journal of Robust and Nonlinear Control"
   year: 2023
   note: "33, pp. 9433-9449, 2023"
@@ -74,7 +74,7 @@
 - category: "journal"
   authors: "**P. Zhou**, S. Lai, J. Cui, and B. M. Chen,"
   title: "Formation control of unmanned rotorcraft systems with state constraints and inter-agent collision avoidance"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://link.springer.com/article/10.1007/s43684-023-00049-3"
   venue: "Autonomous Intelligent Systems"
   year: 2023
   note: "3(1), pp. 1-12, 2023"
@@ -82,7 +82,7 @@
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
   title: "Formation-containment control of Euler-Lagrange systems of leaders with bounded unknown inputs"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1109/TCYB.2020.3034931"
   venue: "IEEE Transactions on Cybernetics"
   year: 2022
   note: "pp. 6342-6353, 2022"
@@ -90,7 +90,7 @@
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
   title: "Semi-global leader–following output consensus of heterogeneous systems with all agents subject to input saturation"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rnc.6045"
   venue: "International Journal of Robust and Nonlinear Control"
   year: 2022
   note: "32, pp. 4648-4664, 2022"
@@ -98,7 +98,7 @@
 - category: "journal"
   authors: "**P. Zhou**, and B. M. Chen,"
   title: "Semi-global leader-following consensus-based formation flight of unmanned aerial vehicles"
-  url: "https://doi.org/10.1016/j.autcon.2024.105405"
+  url: "https://doi.org/10.1016/j.cja.2021.02.013"
   venue: "Chinese Journal of Aeronautics"
   year: 2022
   note: "35(1), pp. 31-43, 2022"

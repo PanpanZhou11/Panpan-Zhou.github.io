@@ -5,7 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<!--{{% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
@@ -13,5 +13,34 @@ author_profile: true
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
-  {{post.date|date: "%B %Y"}}
+{% endfor %} -->
+
+
+
+{% include base_path %}
+
+## Talks
+
+<ul>
+{% assign talks = site.talks | where: "category", "talk" | sort: "date" | reverse %}
+{% for talk in talks %}
+  <li>
+    <strong>{{ talk.date | date: "%B %Y" }}</strong>:
+    {%- capture body -%}{{ talk.content | markdownify }}{%- endcapture -%}
+    {{ body | strip_newlines | remove: '<p>' | remove: '</p>' }}
+  </li>
 {% endfor %}
+</ul>
+
+## Conference Presentations
+
+<ul>
+{% assign confs = site.talks | where: "category", "conference" | sort: "date" | reverse %}
+{% for talk in confs %}
+  <li>
+    <strong>{{ talk.date | date: "%B %Y" }}</strong>:
+    {%- capture body -%}{{ talk.content | markdownify }}{%- endcapture -%}
+    {{ body | strip_newlines | remove: '<p>' | remove: '</p>' }}
+  </li>
+{% endfor %}
+</ul>

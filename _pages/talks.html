@@ -19,6 +19,7 @@ author_profile: true
 
 {% include base_path %}
 
+{% assign all_talks = site.talks | sort: "date" | reverse %}
 
 <p style="font-weight: bold; font-size: 24px;">
   Talks
@@ -26,7 +27,7 @@ author_profile: true
 
 <ul>
 {% assign talks_only = all_talks | where: "type", "Talk" %}
-{% assign all_talks = site.talks | sort: "date" | reverse %}
+
 {% for talk in talks_only %}
   <li>
     {{ talk.date | date: "%B %Y" }} 

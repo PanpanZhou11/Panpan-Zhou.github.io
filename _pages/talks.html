@@ -17,7 +17,7 @@ author_profile: true
 
 
 
-
+{% include base_path %}
 
 
 {% assign all_talks = site.talks | sort: "date" | reverse %}
@@ -36,6 +36,8 @@ author_profile: true
   </li>
 {% endfor %}
 </ul>
+
+
 
 
 <p style="font-weight: bold; font-size: 24px;">

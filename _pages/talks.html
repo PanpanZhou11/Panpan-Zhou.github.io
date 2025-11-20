@@ -17,7 +17,7 @@ author_profile: true
 
 
 
-{% include base_path %}
+<!--{% include base_path %}
 
 {% assign all_talks = site.talks | sort: "date" | reverse %}
 
@@ -38,8 +38,6 @@ author_profile: true
 </ul>
 
 
-
-
 <p style="font-weight: bold; font-size: 24px;">
   Conference presentations
 </p>
@@ -53,4 +51,41 @@ author_profile: true
     {{ talk.venue }}, {{ talk.location }}
   </li>
 {% endfor %}
+</ul>
+-->
+
+
+
+
+{% include base_path %}
+
+{%- assign talks_only = site.talks | where: "type", "Talk" | reverse -%}
+{%- assign conf_only = site.talks | where: "type", "Conference presentation" | reverse -%}
+
+<p style="font-weight: bold; font-size: 24px;">
+  Talks
+</p>
+
+<ul>
+  {% for talk in talks_only %}
+    <li>
+      {{ talk.date | date: "%B %Y" }}
+      <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+      {{ talk.venue }}, {{ talk.location }}
+    </li>
+  {% endfor %}
+</ul>
+
+<p style="font-weight: bold; font-size: 24px;">
+  Conference presentations
+</p>
+
+<ul>
+  {% for talk in conf_only %}
+    <li>
+      {{ talk.date | date: "%B %Y" }}
+      <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+      {{ talk.venue }}, {{ talk.location }}
+    </li>
+  {% endfor %}
 </ul>

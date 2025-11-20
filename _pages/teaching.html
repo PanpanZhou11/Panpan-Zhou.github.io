@@ -15,19 +15,20 @@ author_profile: true
     <li>
       {%- comment -%} 时间：这里按需要改格式 {%- endcomment -%}
       {%- if teach.semester -%}
-        {{ teach.semester }},
+        {{ teach.semester }}, 
       {%- else -%}
-        {{ teach.date | date: "%B %Y" }},
+        {{ teach.date | date: "%B %Y" }}, 
       {%- endif -%}
       {%- if teach.role -%}
-        {{ teach.role }},
+        {{ teach.role }}, 
       {%- endif -%}
 
       {%- comment -%} 课程名称：优先用 course，没有就用 title {%- endcomment -%}
-      <strong>{{ teach.course | default: teach.title }}</strong>,
+      <strong>{{ teach.course | default: teach.title }}</strong>, 
       {%- if teach.level -%}
-        {{ teach.level }},
+        {{ teach.level }}, 
       {%- endif -%}
+
       {%- if teach.location -%}
         {{ teach.location }}
       {%- endif -%}

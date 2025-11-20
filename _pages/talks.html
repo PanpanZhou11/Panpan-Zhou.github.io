@@ -18,7 +18,11 @@ author_profile: true
     {% if talk.type == "Talk" %}
       <li>
         {{ talk.date | date: "%B %Y" }}
-        <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+        {% if talk.permalink %}
+          <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+        {% else %}
+          <strong>{{ talk.title }}</strong>,
+        {% endif %}
         {{ talk.venue }}, {{ talk.location }}
       </li>
     {% endif %}
@@ -34,7 +38,11 @@ author_profile: true
     {% if talk.type == "Conference presentation" %}
       <li>
         {{ talk.date | date: "%B %Y" }}
-        <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+        {% if talk.permalink %}
+          <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
+        {% else %}
+          <strong>{{ talk.title }}</strong>,
+        {% endif %}
         {{ talk.venue }}, {{ talk.location }}
       </li>
     {% endif %}

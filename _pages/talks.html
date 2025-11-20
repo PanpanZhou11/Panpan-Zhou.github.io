@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -40,7 +40,7 @@ author_profile: true
   {% for talk in sorted_talks %}
     {% if talk.type == "Conference presentation" %}
       <li>
-        {{ talk.date | date: "%B %Y" }}
+        {{ talk.date | date: "%B %Y" }},
         {% if talk.permalink %}
           <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
         {% else %}

@@ -7,10 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<!--{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} 
--->
 
 {%- assign sorted_teaching = site.teaching | sort: "date" | reverse -%}
 
@@ -19,9 +15,9 @@ author_profile: true
     <li>
       {%- comment -%} 时间：这里按需要改格式 {%- endcomment -%}
       {%- if teach.semester -%}
-        {{ teach.semester }}
+        {{ teach.semester }},
       {%- else -%}
-        {{ teach.date | date: "%B %Y" }}
+        {{ teach.date | date: "%B %Y" }},
       {%- endif -%}
       {%- if teach.role -%}
         {{ teach.role }},

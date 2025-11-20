@@ -19,7 +19,9 @@ author_profile: true
 
 {% include base_path %}
 
-## Talks
+<p style="font-weight: bold; font-size: 24px;">
+  Talks
+</p>
 
 <ul>
 {% assign talks = site.talks | where: "category", "talk" | sort: "date" | reverse %}
@@ -32,7 +34,11 @@ author_profile: true
 {% endfor %}
 </ul>
 
-## Conference Presentations
+
+
+<p style="font-weight: bold; font-size: 24px;">
+  Conference Presentations
+</p>
 
 <ul>
 {% assign confs = site.talks | where: "category", "conference" | sort: "date" | reverse %}

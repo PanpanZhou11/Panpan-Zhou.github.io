@@ -22,7 +22,9 @@ author_profile: true
 
 {% assign all_talks = site.talks | sort: "date" | reverse %}
 
-## Talks
+<p style="font-weight: bold; font-size: 24px;">
+  Talks
+</p>
 
 <ul>
 {% assign talks_only = all_talks | where: "type", "Talk" %}
@@ -35,7 +37,10 @@ author_profile: true
 {% endfor %}
 </ul>
 
-## Conference presentations
+
+<p style="font-weight: bold; font-size: 24px;">
+  Conference presentations
+</p>
 
 <ul>
 {% assign conf_only = all_talks | where: "type", "Conference presentation" %}

@@ -7,6 +7,32 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<!--{% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} 
+-->
+
+{%- assign sorted_teaching = site.teaching | sort: "date" | reverse -%}
+
+<ul>
+  {% for teach in sorted_teaching %}
+    <li>
+      {%- comment -%} 时间：这里按需要改格式 {%- endcomment -%}
+      {%- if teach.semester -%}
+        {{ teach.semester }}
+      {%- else -%}
+        {{ teach.date | date: "%B %Y" }}
+      {%- endif -%}
+      {%- if teach.role -%}
+        {{ teach.role }},
+      {%- endif -%}
+
+      {%- comment -%} 课程名称：优先用 course，没有就用 title {%- endcomment -%}
+      <strong>{{ teach.course | default: teach.title }}</strong>,
+
+      {%- if teach.location -%}
+        {{ teach.location }}
+      {%- endif -%}
+    </li>
+  {% endfor %}
+</ul>

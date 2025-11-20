@@ -5,17 +5,16 @@ permalink: /talks/
 author_profile: true
 ---
 
-
-
-
 {% include base_path %}
+
+{%- assign sorted_talks = site.talks | sort: "date" | reverse -%}
 
 <p style="font-weight: bold; font-size: 24px;">
   Talks
 </p>
 
 <ul>
-  {% for talk in site.talks reversed %}
+  {% for talk in sorted_talks %}
     {% if talk.type == "Talk" %}
       <li>
         {{ talk.date | date: "%B %Y" }}
@@ -31,7 +30,7 @@ author_profile: true
 </p>
 
 <ul>
-  {% for talk in site.talks reversed %}
+  {% for talk in sorted_talks %}
     {% if talk.type == "Conference presentation" %}
       <li>
         {{ talk.date | date: "%B %Y" }}

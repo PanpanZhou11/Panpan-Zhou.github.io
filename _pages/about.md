@@ -16,6 +16,7 @@ Research Interest
 - Modelling and control
 - Optimization
 - Game theory
+- Mechanical design
 - Applications to autonomous systems, robotics, medicine, and so on  
 
 

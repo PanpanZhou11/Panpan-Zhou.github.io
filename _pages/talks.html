@@ -5,55 +5,6 @@ permalink: /talks/
 author_profile: true
 ---
 
-<!--{{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
-
-
-
-<!--{% include base_path %}
-
-{% assign all_talks = site.talks | sort: "date" | reverse %}
-
-<p style="font-weight: bold; font-size: 24px;">
-  Talks
-</p>
-
-<ul>
-{% assign talks_only = all_talks | where: "type", "Talk" %}
-
-{% for talk in talks_only %}
-  <li>
-    {{ talk.date | date: "%B %Y" }} 
-    <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
-    {{ talk.venue }}, {{ talk.location }}
-  </li>
-{% endfor %}
-</ul>
-
-
-<p style="font-weight: bold; font-size: 24px;">
-  Conference presentations
-</p>
-
-<ul>
-{% assign conf_only = all_talks | where: "type", "Conference presentation" %}
-{% for talk in conf_only %}
-  <li>
-    {{ talk.date | date: "%B %Y" }} 
-    <strong><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></strong>,
-    {{ talk.venue }}, {{ talk.location }}
-  </li>
-{% endfor %}
-</ul>
--->
-
 
 
 

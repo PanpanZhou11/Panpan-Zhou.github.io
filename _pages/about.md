@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Panpan (Priscilla) Zhou is currently a Digital Futures Postdoctoral Fellow at KTH Royal Institute of Techchnology, under the supervision of Prof. Xiaoming Hu and Prof. Bo Wahlberg. She received her Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by Prof. Ben M. Chen, and her Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
+Hi, there! This is Dr. Panpan (Priscilla) Zhou. I am currently a Digital Futures Postdoctoral Fellow at KTH Royal Institute of Techchnology, under the supervision of Prof. Xiaoming Hu and Prof. Bo Wahlberg. I received my Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by Prof. Ben M. Chen, and my Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
 
 
 Research Interest

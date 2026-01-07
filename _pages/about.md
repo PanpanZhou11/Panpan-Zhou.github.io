@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, there! This is Dr. Panpan (Priscilla) Zhou. I am currently a Digital Futures Postdoctoral Fellow at KTH Royal Institute of Techchnology, under the supervision of Prof. Xiaoming Hu and Prof. Bo Wahlberg. I received my Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by Prof. Ben M. Chen, and my Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
+Hi, there! This is Dr. Panpan (Priscilla) Zhou. I am currently a Lecturer (Assistant Professor) at the University of Galway. Before that, I was a Digital Futures Postdoctoral Fellow at KTH Royal Institute of Techchnology, under the supervision of Prof. Xiaoming Hu and Prof. Bo Wahlberg. I received my Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by Prof. Ben M. Chen, and my Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
 
 
 Research Interest
@@ -20,9 +20,28 @@ Research Interest
 - Applications to autonomous systems, robotics, medicine, and so on 
 
 
+Phd and Postdoc opportunities
+======
+There are some PhD and Postdoc opportunities at the university.
+
+🎉1. Postdoc opportunities: Research Ireland Pathway Programme 2026. 
+Deadline: 20th Feb 2026. 
+Basic requirements: held a PhD or equivalent qualification for at least two years at proposal submission, and not an independent investigator. For more information, please see [https://www.researchireland.ie/funding/pathway/](https://www.researchireland.ie/funding/pathway/)
+
+🎊2. PhD opportunities: Harriman PhD Scholarships. 
+Deadline: 6 Feb 2026. 
+For more information, please see [https://www.universityofgalway.ie/hardiman-scholarships/](https://www.universityofgalway.ie/hardiman-scholarships/)
+
+🌹3. PhD opportunities: University-China Scholar Council Joint Scholarship. 
+Deadline: 27th Feb 2026. 
+For more information, please see [https://www.universityofgalway.ie/internationalscholarships/](https://www.universityofgalway.ie/internationalscholarships/).
+
+You are welcome to contact and apply together with me. You are also welcome to share the news with your friends and colleagues! Many thanks.
+
+
 Contact
 ======
-Email: panpanz@kth.se
+Email: panpan.zhou@universityofgalway.ie
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!

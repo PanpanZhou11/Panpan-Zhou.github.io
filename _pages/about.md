@@ -20,7 +20,7 @@ Research Interest
 - Applications to autonomous systems, robotics, medicine, and so on 
 
 
-<font color="red">Accepting CSC students and PhD students!</font>
+<font color="red">Accepting CSC students, CSC exchange students, and PhD students!</font>
 
 
 Phd and Postdoc opportunities

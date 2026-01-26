@@ -21,7 +21,7 @@ Research Interest
 
 
 <font color="red">Accepting CSC students and PhD students!</font>
-======
+
 
 
 Phd and Postdoc opportunities

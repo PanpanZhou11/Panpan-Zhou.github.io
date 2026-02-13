@@ -23,21 +23,24 @@ Research Interest
 <font color="red">Accepting CSC students, CSC exchange students, and PhD students!</font>
 
 
-Phd and Postdoc opportunities
+<!--Phd and Postdoc opportunities
 ======
 There are some PhD and Postdoc opportunities at the university.
 
-🎉1. Postdoc opportunities: Research Ireland Pathway Programme 2026. 
-Deadline: 20th Feb 2026. 
+🎉1. Postdoc opportunities: Research Ireland Pathway Programme (Rolling). 
 Basic requirements: held a PhD or equivalent qualification for at least two years at proposal submission, and not an independent investigator. For more information, please see [https://www.researchireland.ie/funding/pathway/](https://www.researchireland.ie/funding/pathway/)
 
-🎊2. PhD opportunities: Harriman PhD Scholarships. 
-Deadline: 6 Feb 2026. 
-For more information, please see [https://www.universityofgalway.ie/hardiman-scholarships/](https://www.universityofgalway.ie/hardiman-scholarships/)
+🎊2. PhD opportunities: Harriman PhD Scholarships (Rolling). 
+For more information, please see [https://www.universityofgalway.ie/hardiman-scholarships/](https://www.universityofgalway.ie/hardiman-scholarships/) -->
 
-🌹3. PhD opportunities: University-China Scholar Council Joint Scholarship. 
+🌹1. PhD opportunities: University-China Scholar Council (CSC) Joint Scholarship. 
 Deadline: 27th Feb 2026. 
 For more information, please see [https://www.universityofgalway.ie/internationalscholarships/](https://www.universityofgalway.ie/internationalscholarships/).
+
+🎊2. Full-time PhD with scholarship
+Research direction: control, game theory, optimization, and multi-agent systems
+
+
 
 You are welcome to contact and apply together with me. You are also welcome to share the news with your friends and colleagues! Many thanks.
 

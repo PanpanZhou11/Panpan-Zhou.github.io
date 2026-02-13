@@ -34,10 +34,13 @@ Basic requirements: held a PhD or equivalent qualification for at least two year
 For more information, please see [https://www.universityofgalway.ie/hardiman-scholarships/](https://www.universityofgalway.ie/hardiman-scholarships/) -->
 
 🌹1. PhD opportunities: University-China Scholar Council (CSC) Joint Scholarship. 
+
 Deadline: 27th Feb 2026. 
+
 For more information, please see [https://www.universityofgalway.ie/internationalscholarships/](https://www.universityofgalway.ie/internationalscholarships/).
 
 🎊2. Full-time PhD with scholarship
+
 Research direction: control, game theory, optimization, and multi-agent systems
 
 

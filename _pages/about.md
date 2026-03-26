@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, there! This is Dr. Panpan (Priscilla) Zhou. I am currently a Lecturer (Assistant Professor) at the University of Galway. Before that, I was a Digital Futures Postdoctoral Fellow at KTH Royal Institute of Techchnology, under the supervision of Prof. Xiaoming Hu and Prof. Bo Wahlberg. I received my Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by Prof. Ben M. Chen, and my Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
+Hi, there! This is Dr. Panpan Zhou. I am currently a Lecturer (Assistant Professor) at the University of Galway. Before that, I was a Postdoctoral Fellow at KTH Royal Institute of Techchnology with [Digital Futures Fellowship](https://www.digitalfutures.kth.se/mobility/postdoc-fellowship/), under the supervision of [Prof. Xiaoming Hu](https://www.kth.se/profile/hu) and [Prof. Bo Wahlberg](https://www.kth.se/profile/bo). I received my Ph.D. degree in Mechanical and Automation Engineering in 2021 from the Chinese University of Hong Kong, supervised by [Prof. Ben M. Chen](https://www4.mae.cuhk.edu.hk/peoples/chen-benmei/), and my Bachelor degree in Automation from Northwestern Polytechnical University in 2017.
 
 
 Research Interest
